@@ -1,34 +1,31 @@
 body {
     background-color: #6ad1d2; /* Hex code for robin egg blue */
-  }
-  h1 {
-    font-family: 'Courier New', Courier, monospace;
-  }
-  h2 {
-    font-family: 'Courier New', Courier, monospace
-  }
-  p {
-    font-family: 'Courier New', Courier, monospace;
-  }
-  .center-text {
-    text-align: center;
-  }
+}
 
-<style>
-    navbar {
-        position: sticky;
-        top: 0;
-        background-color: #6ad1d2;
-        padding: 10px;
-        z-index: 1000;
-    }
-    navbar a {
-        color: white;
-        text-decoration: none;
-        margin: 0 10px;
-        padding: 10px;
-    }
-    navbar a:hover {
-        background-color: #555;
-    }
-</style>
+h1, h2, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Navbar Styling */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #6ad1d2;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
